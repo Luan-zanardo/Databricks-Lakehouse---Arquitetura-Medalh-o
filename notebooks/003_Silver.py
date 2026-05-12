@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %sql
+# MAGIC USE CATALOG workspace;
+
+# COMMAND ----------
+
 # MAGIC %md
 ## df = spark.read.format('delta').load(f"schema.tabela")
 
