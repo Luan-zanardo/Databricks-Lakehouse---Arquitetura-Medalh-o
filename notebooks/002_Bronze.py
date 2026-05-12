@@ -1,12 +1,11 @@
 # Databricks notebook source
 # MAGIC %sql
-# MAGIC USE CATALOG workspace;
+DESCRIBE DETAIL bronze.apolice;
+
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC ## Ingestão de Dados - Camada Bronze
-# MAGIC Este notebook lê os arquivos CSV da camada Landing e os salva como tabelas Delta na camada Bronze.
+display(dbutils.fs.ls('/'))
 
 # COMMAND ----------
 
