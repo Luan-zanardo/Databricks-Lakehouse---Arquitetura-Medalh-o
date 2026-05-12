@@ -1,9 +1,12 @@
 # Databricks notebook source
+# MAGIC %sql
+# MAGIC USE CATALOG workspace;
+
+# COMMAND ----------
+
 # MAGIC %md
-## df = spark.read.format('delta').load(f"schema.tabela")
-
-Gera um dataframe para cada tabela delta de bronze.
-
+# MAGIC ## Camada Silver - Transformação e Qualidade
+# MAGIC Este notebook lê os dados da camada Bronze, aplica regras de renome e qualidade, e salva na camada Silver.
 
 # COMMAND ----------
 

@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %sql
+# MAGIC USE CATALOG workspace;
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC # Camada Gold - Modelagem Dimensional
 # MAGIC Neste notebook, realizamos a carga das tabelas de Dimensão e Fato utilizando a técnica de Ralph Kimball.
