@@ -146,9 +146,9 @@ df_cliente.createOrReplaceTempView("cliente")
 # MAGIC -- v3a (COM CTE) prevendo atualizacao SCD1 - Cliente
 # MAGIC WITH cliente_relacional AS (
 # MAGIC 	SELECT codigo_cliente,
-# MAGIC 		   nome,
-# MAGIC 		   cpf,
-# MAGIC 		   sexo,
+# MAGIC 		   nome_cliente AS nome,
+# MAGIC 		   numero_cpf AS cpf,
+# MAGIC 		   nome_sexo AS sexo,
 # MAGIC 		   data_nascimento
 # MAGIC 	  FROM cliente
 # MAGIC )
@@ -238,7 +238,7 @@ df_tempo.write.mode('overwrite').saveAsTable("gold.dim_tempo", format="delta")
 # MAGIC 	   INNER JOIN gold.dim_cliente dcli
 # MAGIC 	     ON ac.codigo_cliente = dcli.codigo_cliente
 # MAGIC 	   INNER JOIN gold.dim_localidade dloc
-# MAGIC 	     ON r.local_sinistro = dloc.codigo_municipio
+# MAGIC 	     ON r.codigo_municipio = dloc.codigo_municipio
 # MAGIC 	   INNER JOIN gold.dim_tempo dtem
 # MAGIC 	     ON r.data_sinistro = dtem.data
 # MAGIC GROUP BY data_sinistro,
