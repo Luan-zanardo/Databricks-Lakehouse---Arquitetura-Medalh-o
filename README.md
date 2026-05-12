@@ -158,7 +158,7 @@ Este projeto utiliza **MKDOCS**. Para visualizar localmente:
 *   **[Spark SQL Guide](https://spark.apache.org/docs/latest/sql-programming-guide.html)**: Documentação do motor de processamento Spark.
 *   **[Kimball Group - Dimensional Modeling](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)**: Melhores práticas de modelagem dimensional.
 *   **[Databricks Community Edition](https://community.cloud.databricks.com/)**: Plataforma gratuita utilizada para o desenvolvimento deste projeto.
-*   **[Vídeo: O que é Data Lakehouse?](https://www.youtube.com/watch?v=0XwH0aRk5tE)**: Introdução conceitual ao modelo Lakehouse.
+*   **[Vídeo: O que é Data Lakehouse?](https://www.youtube.com/watch?v=86Uo9L3k6VY)**: Introdução conceitual ao modelo Lakehouse.
 
 ---
 ⭐ *Trabalho desenvolvido como parte do curso de Engenharia de Dados.*
