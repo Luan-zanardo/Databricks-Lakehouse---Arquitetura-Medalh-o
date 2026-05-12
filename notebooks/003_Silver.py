@@ -77,7 +77,7 @@ Verifica os dados gravados no formato delta lake tipo MANAGED na camada bronze.
 # COMMAND ----------
 
 # MAGIC %sql
-SHOW TABLES IN silver
+-- SHOW TABLES IN silver
 
 # COMMAND ----------
 
@@ -90,7 +90,7 @@ Vendo os detalhes de um tabela delta lake.
 # COMMAND ----------
 
 # MAGIC %sql
-DESCRIBE DETAIL silver.apolice;
+-- DESCRIBE DETAIL silver.apolice;
 
 
 # COMMAND ----------
@@ -106,7 +106,7 @@ Mostra se a tabela é MANAGED Ou EXTERNAL.
 # COMMAND ----------
 
 # MAGIC %sql
-DESCRIBE EXTENDED silver.apolice;
+-- DESCRIBE EXTENDED silver.apolice;
 --DESCRIBE TABLE EXTENDED apolice_bronze;
 
 # COMMAND ----------
@@ -192,4 +192,9 @@ renomear_colunas_managed("bronze.telefone",  "silver.telefone")
 
 
 # COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SHOW TABLES IN silver;
+# MAGIC DESCRIBE DETAIL silver.apolice;
+# MAGIC DESCRIBE EXTENDED silver.apolice;
 

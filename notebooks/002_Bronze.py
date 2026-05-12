@@ -114,17 +114,8 @@ Verifica os dados gravados no formato delta lake tipo MANAGED na camada bronze.
 
 # COMMAND ----------
 
-df_apolice.write.format('delta').mode("overwrite").saveAsTable("bronze.apolice")
-df_carro.write.format('delta').mode("overwrite").saveAsTable("bronze.carro")
-df_cliente.write.format('delta').mode("overwrite").saveAsTable("bronze.cliente")
-df_endereco.write.format('delta').mode("overwrite").saveAsTable("bronze.endereco")
-df_estado.write.format('delta').mode("overwrite").saveAsTable("bronze.estado")
-df_marca.write.format('delta').mode("overwrite").saveAsTable("bronze.marca")
-df_modelo.write.format('delta').mode("overwrite").saveAsTable("bronze.modelo")
-df_municipio.write.format('delta').mode("overwrite").saveAsTable("bronze.municipio")
-df_regiao.write.format('delta').mode("overwrite").saveAsTable("bronze.regiao")
-df_sinistro.write.format('delta').mode("overwrite").saveAsTable("bronze.sinistro")
-df_telefone.write.format('delta').mode("overwrite").saveAsTable("bronze.telefone")
-
-# COMMAND ----------
+# MAGIC %sql
+# MAGIC SHOW TABLES IN bronze;
+# MAGIC DESCRIBE DETAIL bronze.apolice;
+# MAGIC DESCRIBE EXTENDED bronze.apolice;
 
