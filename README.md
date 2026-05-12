@@ -9,6 +9,16 @@ Este repositório contém a implementação completa de um pipeline de dados uti
 
 ---
 
+## 👥 Participantes
+
+| Nome |
+|------|
+| Gabriel Matiola |
+| Pedro Afonso Cardoso Barato |
+| Luan Zuchinali Zanardo |
+
+---
+
 ## 🏗️ Arquitetura do Projeto
 
 O pipeline segue o fluxo da Arquitetura Medalhão, garantindo governança, qualidade e performance:
