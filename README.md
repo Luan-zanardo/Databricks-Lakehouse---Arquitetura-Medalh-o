@@ -13,7 +13,6 @@ Este repositório contém a implementação completa de um pipeline de dados uti
 
 | Nome |
 |------|
-
 | Gabriel Matiola |
 | Pedro Afonso Cardoso Barato |
 | Luan Zuchinali Zanardo |
