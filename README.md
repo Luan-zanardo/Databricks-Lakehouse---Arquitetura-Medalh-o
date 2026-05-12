@@ -81,6 +81,13 @@ Siga a sequência dos notebooks:
 ### 4. Automação
 Para automação completa, crie um **Databricks Job** encadeando os notebooks 001 a 004.
 
+#### 🚀 Criação do Job
+
+No menu lateral do Databricks, acessou-se:
+
+```bash
+Workflows → Jobs → Create Job
+```
 ---
 
 ## 📊 Modelagem Dimensional (Gold)
