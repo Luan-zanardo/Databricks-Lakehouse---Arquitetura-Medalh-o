@@ -57,7 +57,7 @@ No Databricks, crie um cluster (Runtime 13.3 LTS ou superior) e execute o notebo
 
 ### 2. Carga de Dados (Landing)
 Suba os arquivos `.csv` (referentes a apólices, clientes, sinistros, etc.) para o volume criado em:
-`/Volumes/workspace/landing/dados/`
+`/Volumes/workspace/landing/dados/` clicando na barra lateral esquerda escrita "Catalog"
 
 ### 3. Execução do Pipeline
 Siga a sequência dos notebooks:
