@@ -56,6 +56,13 @@ O pipeline segue o fluxo da Arquitetura Medalhão, garantindo governança, quali
 
 ---
 
+##  Documentação
+
+A documentação completa do projeto está disponível em:
+https://luan-zanardo.github.io/Databricks-Lakehouse---Arquitetura-Medalh-o/
+
+---
+
 ## 🚀 Como Executar
 
 ### 1. Preparação do Ambiente
