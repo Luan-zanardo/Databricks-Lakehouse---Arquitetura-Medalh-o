@@ -56,6 +56,9 @@ No Databricks, crie um cluster (Runtime 13.3 LTS ou superior) e execute o notebo
 *   `workspace.gold`
 
 ### 2. Carga de Dados (Landing)
+
+Dados para utilizar de exemplo: https://drive.google.com/drive/folders/1OydyXZb9w5wvj4zYxj8RKUWBZG33RogE?usp=sharing
+
 Suba os arquivos `.csv` (referentes a apólices, clientes, sinistros, etc.) para o volume criado em:
 `/Volumes/workspace/landing/dados/` clicando na barra lateral esquerda escrita "Catalog"
 
