@@ -1,9 +1,4 @@
 # Databricks notebook source
-# MAGIC %sql
-# MAGIC USE CATALOG workspace;
-
-# COMMAND ----------
-
 # MAGIC %md
 ## df = spark.read.format('delta').load(f"schema.tabela")
 
@@ -77,7 +72,7 @@ Verifica os dados gravados no formato delta lake tipo MANAGED na camada bronze.
 # COMMAND ----------
 
 # MAGIC %sql
--- SHOW TABLES IN silver
+SHOW TABLES IN silver
 
 # COMMAND ----------
 
@@ -90,7 +85,7 @@ Vendo os detalhes de um tabela delta lake.
 # COMMAND ----------
 
 # MAGIC %sql
--- DESCRIBE DETAIL silver.apolice;
+DESCRIBE DETAIL silver.apolice;
 
 
 # COMMAND ----------
@@ -106,7 +101,7 @@ Mostra se a tabela é MANAGED Ou EXTERNAL.
 # COMMAND ----------
 
 # MAGIC %sql
--- DESCRIBE EXTENDED silver.apolice;
+DESCRIBE EXTENDED silver.apolice;
 --DESCRIBE TABLE EXTENDED apolice_bronze;
 
 # COMMAND ----------

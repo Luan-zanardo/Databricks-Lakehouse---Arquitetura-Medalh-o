@@ -1,7 +1,6 @@
 # Databricks notebook source
 # MAGIC %sql
-# MAGIC USE CATALOG workspace;
-# MAGIC -- DESCRIBE DETAIL bronze.apolice;
+DESCRIBE DETAIL bronze.apolice;
 
 
 # COMMAND ----------
@@ -45,7 +44,7 @@ Mostra se a tabela é MANAGED Ou EXTERNAL.
 # COMMAND ----------
 
 # MAGIC %sql
--- DESCRIBE EXTENDED bronze.apolice;
+DESCRIBE EXTENDED bronze.apolice;
 --DESCRIBE TABLE EXTENDED apolice_bronze;
 
 # COMMAND ----------
@@ -55,7 +54,7 @@ display(dbutils.fs.ls('/Volumes/workspace/landing/dados/'))
 # COMMAND ----------
 
 # MAGIC %sql
--- SHOW TABLES IN bronze
+SHOW TABLES IN bronze
 
 # COMMAND ----------
 
