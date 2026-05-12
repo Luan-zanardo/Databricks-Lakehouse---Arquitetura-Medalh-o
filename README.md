@@ -78,18 +78,49 @@ Siga a sequência dos notebooks:
 2.  **Silver:** Aplica Data Quality e renomeia colunas para o padrão corporativo.
 3.  **Gold:** Alimenta as dimensões (SCD Tipo 1) e a tabela fato de sinistros.
 
-### 4. Automação
-Para automação completa, crie um **Databricks Job** encadeando os notebooks 001 a 004.
+### 4. Automação do Pipeline
 
-#### 🚀 Criação do Job
+Para automatizar a execução do fluxo de dados, será criado um **Databricks Job** encadeando os notebooks `001` até `004`.
 
-No menu lateral do Databricks, acessou-se:
+#### ⚙️ Configuração do Job
+
+No menu lateral do Databricks:
 
 ```bash
 Workflows → Jobs → Create Job
 ```
----
 
+Após criar o Job, cada notebook deverá ser adicionado como uma **Task** com dependência sequencial.
+
+#### 🔗 Fluxo de Execução
+
+```text
+001_Preparando_ambiente
+            ↓
+002_Bronze
+            ↓
+003_Silver
+            ↓
+004_Gold
+```
+
+#### 🖥️ Configuração Utilizada
+
+| Configuração | Valor |
+|---|---|
+| Runtime | 13.3 LTS+ |
+| Cluster | Job Cluster |
+| Workers | 1 |
+
+#### ▶️ Execução
+
+Após salvar o Job, bastará clicar em:
+
+```bash
+Run now
+```
+
+O Databricks executará automaticamente todas as etapas do pipeline na ordem correta, garantindo automação, padronização e controle do processamento de dados.
 ## 📊 Modelagem Dimensional (Gold)
 
 A camada Gold foi projetada para responder perguntas de negócio como:
