@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://Luan-zanardo.github.io/Databricks-Lakehouse---Arquitetura-Medalh-o/</loc>
+         <lastmod>2026-05-13</lastmod>
+    </url>
+    <url>
+         <loc>https://Luan-zanardo.github.io/Databricks-Lakehouse---Arquitetura-Medalh-o/automacao/</loc>
+         <lastmod>2026-05-13</lastmod>
+    </url>
+    <url>
+         <loc>https://Luan-zanardo.github.io/Databricks-Lakehouse---Arquitetura-Medalh-o/pipeline/bronze/</loc>
+         <lastmod>2026-05-13</lastmod>
+    </url>
+    <url>
+         <loc>https://Luan-zanardo.github.io/Databricks-Lakehouse---Arquitetura-Medalh-o/pipeline/gold/</loc>
+         <lastmod>2026-05-13</lastmod>
+    </url>
+    <url>
+         <loc>https://Luan-zanardo.github.io/Databricks-Lakehouse---Arquitetura-Medalh-o/pipeline/landing/</loc>
+         <lastmod>2026-05-13</lastmod>
+    </url>
+    <url>
+         <loc>https://Luan-zanardo.github.io/Databricks-Lakehouse---Arquitetura-Medalh-o/pipeline/silver/</loc>
+         <lastmod>2026-05-13</lastmod>
+    </url>
+</urlset>
