@@ -150,4 +150,15 @@ Este projeto utiliza **MKDOCS**. Para visualizar localmente:
 3. Acesse `http://127.0.0.1:8000`
 
 ---
+
+## 🔗 Referências e Links Úteis
+
+*   **[Documentação Databricks - Arquitetura Medalhão](https://www.databricks.com/br/glossary/medallion-architecture)**: Guia oficial sobre as camadas Bronze, Silver e Gold.
+*   **[Delta Lake Documentation](https://docs.delta.io/latest/index.html)**: Referência técnica para o formato Delta.
+*   **[Spark SQL Guide](https://spark.apache.org/docs/latest/sql-programming-guide.html)**: Documentação do motor de processamento Spark.
+*   **[Kimball Group - Dimensional Modeling](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)**: Melhores práticas de modelagem dimensional.
+*   **[Databricks Community Edition](https://community.cloud.databricks.com/)**: Plataforma gratuita utilizada para o desenvolvimento deste projeto.
+*   **[Vídeo: O que é Data Lakehouse?](https://www.youtube.com/watch?v=0XwH0aRk5tE)**: Introdução conceitual ao modelo Lakehouse.
+
+---
 ⭐ *Trabalho desenvolvido como parte do curso de Engenharia de Dados.*
